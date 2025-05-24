@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Any, List, Optional, Union
 
-class OpenRouterModel(BaseModel):
+class OpenrouterModel(BaseModel):
     id: str
     hugging_face_id: Optional[str] = None
     name: str
